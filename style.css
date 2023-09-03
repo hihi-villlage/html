@@ -6,6 +6,7 @@ h1.title {
 }
 h2.author {
 	text-align: right;
+	background-color: pink
 }
 p.image {
 	text-align: center;
