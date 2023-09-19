@@ -67,7 +67,7 @@ hr{
 
 /* リストを横書きにしてみる */
 ul.books{
-	margin-top: 0;
+	
 	display: flex;
 	padding-left: 0;
 }
