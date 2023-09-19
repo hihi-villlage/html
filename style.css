@@ -6,11 +6,22 @@ h1.title {
 }
 h2.author {
 	text-align: right;
-	background-color: pink
 }
 p.image {
 	text-align: center;
 }
 p.image img {
 	width: 860px;
+}
+a:link {
+	color: green; 
+	/* link color */
+}
+a:visited {
+	color: grey;
+	/* visited link color */
+}
+a:hover {
+	color: pink;
+	/* mouse hover color(カーソルがのったときの色) */
 }
