@@ -15,7 +15,7 @@ p.image img {
 }
 a:link {
 	color: green; 
-	/* link color */
+	/* unvisited link color */
 }
 a:visited {
 	color: grey;
@@ -24,4 +24,58 @@ a:visited {
 a:hover {
 	color: pink;
 	/* mouse hover color(カーソルがのったときの色) */
+}
+a:active {
+	color: red;
+	/* マウスをかざしてから押すまでの色 */
+}
+div.text {
+	width: 860px;
+	margin: 0 auto;
+	/* text-alignと違って、ブロックごと動かせる。 */
+	/* paddingと違って、余白が上下左右にできる */
+}
+p.copy{
+	text-align: center;
+}
+span.cast{
+	font-weight: 700;
+	/* norma font size = 400 */
+}
+.main{
+	color: blue;
+	/* htmlではcast main, cast subとしてクラスを追加*/
+	/* この書き方の方が、検索が簡単らしい */
+}
+.sub{
+	color:blueviolet;
+}
+
+
+/* 罫線の追加 */
+/* ブラウザ独自の値のリセット */
+hr{
+	border: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+/* 今回の罫線のスタイル */
+.separator{
+	border-top: 3px dotted navy;
+}
+
+/* リストを横書きにしてみる */
+ul.books{
+	margin-top: 0;
+	display: flex;
+	padding-left: 0;
+}
+li.book{
+	/* ちょぼなし */
+	list-style: none;
+	background-color: lightgrey;
+	padding: 10px;
+	margin-right: 10px;
+
 }
